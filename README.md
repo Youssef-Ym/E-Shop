@@ -36,16 +36,8 @@ It supports product browsing, cart management, secure checkout, order tracking, 
 To access the admin dashboard, use the following credentials:
 
 - **Email:** Admin@test.com 
-- **Password:** Admin@2025  
-
-> ⚠️ Important: Change the default password after first login for security reasons.
-
-### How to Access Admin Panel:
-1. Run the project  
-2. Go to `/Account/Login`  
-3. Login with admin credentials  
-4. You will be redirected to the Admin Dashboard automatically  
-
+- **Password:** Admin@2025
+  
 ---
 
 ## 🧰 Tech Stack
