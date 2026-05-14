@@ -1,67 +1,91 @@
-# 🛒 E-Shop
+# 🛒 E-Commerce Web Application (ASP.NET MVC)
 
-A modern and full-featured E-Commerce web application built with ASP.NET Core MVC.
-
----
-
-## 🚀 Overview
-
-**E-Shop** is a scalable e-commerce platform that provides a seamless shopping experience for users and a powerful admin dashboard for store management.  
-It supports product browsing, cart management, secure checkout, order tracking, and user reviews.
+A full-stack e-commerce web application built using ASP.NET MVC and SQL Server.  
+The system simulates a real online store with complete product, user, and order management features.
 
 ---
 
-## ✨ Features
+## 🚀 Features
 
-### 👤 User Features
-- Browse products by categories  
-- Search for products easily  
-- View detailed product information  
-- Add products to shopping cart  
-- Place orders securely  
-- View order history  
-- Write reviews and ratings  
-
-### 🛠️ Admin Features
-- Manage products (Add / Edit / Delete)  
-- Manage categories  
-- Manage orders  
-- Monitor stock levels  
-- Access admin dashboard  
+- 🔐 User Authentication & Authorization (Login / Register)
+- 🛍️ Product Management (Add, Edit, Delete, View Products)
+- 🛒 Shopping Cart System
+- 📦 Order Processing & Checkout Flow
+- 👤 Role-based access (Admin / User)
+- 💾 Database integration using SQL Server
+- 🎨 Responsive UI using HTML, CSS, and JavaScript
 
 ---
 
-## 🔐 Admin Login
+## 🔑 Admin Test Credentials
 
-To access the admin dashboard, use the following credentials:
+> ⚠️ For testing purposes only
 
-- **Email:** Admin@test.com 
-- **Password:** Admin@2025
-  
----
-
-## 🧰 Tech Stack
-
-- ASP.NET Core MVC  
-- Entity Framework Core  
-- Microsoft SQL Server  
-- ASP.NET Identity  
-- Bootstrap 5  
-- HTML5, CSS3, JavaScript  
+- Email: Admin@test.com  
+- Password: Admin@2025 
 
 ---
 
-## 🏗️ Architecture
+## 🛠️ Technologies Used
 
-The project follows the **MVC (Model-View-Controller)** pattern:
-- Separation of concerns  
-- Clean and maintainable code structure  
-- Scalable application design  
+- ASP.NET MVC  
+- C#  
+- Entity Framework  
+- SQL Server  
+- HTML5  
+- CSS3  
+- JavaScript  
+- Bootstrap (if used)
 
 ---
 
-## 📦 Installation
+## 📂 Project Architecture
 
+```
+Models      → Data models (Product, User, Order)
+Views       → UI pages (Razor Views)
+Controllers → Business logic and routing
+```
+
+---
+
+## 📸 Screenshots
+
+> Add screenshots here to make the project stronger
+
+- Home Page  
+- Product List  
+- Cart Page  
+- Admin Dashboard  
+
+---
+
+## ⚙️ How to Run the Project
+
+1. Clone the repository:
 ```bash
-git clone https://github.com/USERNAME/E-Shop.git
-cd E-Shop
+git clone https://github.com/yourusername/ecommerce-aspnet-mvc.git
+```
+
+2. Open the project in Visual Studio
+
+3. Restore NuGet packages
+
+4. Configure SQL Server connection string in `Web.config`
+
+5. Run database migrations (if using Entity Framework)
+
+6. Start the application
+
+---
+
+## 🎯 Project Purpose
+
+This project was developed to practice full-stack web development using ASP.NET MVC, focusing on real-world e-commerce system functionality including authentication, product management, and order processing.
+
+---
+
+## 👨‍💻 Author
+
+- GitHub: https://github.com/Youssef-Ym
+- Name: Youssef Mohamed Abdelsalam
